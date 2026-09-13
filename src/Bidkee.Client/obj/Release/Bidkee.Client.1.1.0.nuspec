@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Bidkee.Client</id>
+    <version>1.1.0</version>
+    <authors>Bidkee</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://bidkee.com/</projectUrl>
+    <description>Protocol 1.1 HTTP client for bidkee.com public directory and agent channel.</description>
+    <copyright>Copyright (c) Bidkee</copyright>
+    <tags>bidkee did kaspa agent identity</tags>
+    <repository type="git" url="https://bidkee.com" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="System.Net.Http.Json" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="8.0.5" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Net.Http.Json" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="8.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\bin\Release\net8.0\Bidkee.Client.dll" target="lib\net8.0\Bidkee.Client.dll" />
+    <file src="E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\bin\Release\net8.0\Bidkee.Client.xml" target="lib\net8.0\Bidkee.Client.xml" />
+    <file src="E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\bin\Release\netstandard2.0\Bidkee.Client.dll" target="lib\netstandard2.0\Bidkee.Client.dll" />
+    <file src="E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\bin\Release\netstandard2.0\Bidkee.Client.xml" target="lib\netstandard2.0\Bidkee.Client.xml" />
+    <file src="E:\ProjectBid\Bidkee\V030\BidkeeClient\README.md" target="\README.md" />
+  </files>
+</package>

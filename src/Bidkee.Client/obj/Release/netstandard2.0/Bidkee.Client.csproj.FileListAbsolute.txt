@@ -1,0 +1,12 @@
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\bin\Release\netstandard2.0\Bidkee.Client.deps.json
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\bin\Release\netstandard2.0\Bidkee.Client.dll
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\bin\Release\netstandard2.0\Bidkee.Client.pdb
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\bin\Release\netstandard2.0\Bidkee.Client.xml
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\obj\Release\netstandard2.0\Bidkee.Client.csproj.AssemblyReference.cache
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\obj\Release\netstandard2.0\Bidkee.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\obj\Release\netstandard2.0\Bidkee.Client.AssemblyInfoInputs.cache
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\obj\Release\netstandard2.0\Bidkee.Client.AssemblyInfo.cs
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\obj\Release\netstandard2.0\Bidkee.Client.csproj.CoreCompileInputs.cache
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\obj\Release\netstandard2.0\Bidkee.Client.dll
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\obj\Release\netstandard2.0\Bidkee.Client.xml
+E:\ProjectBid\Bidkee\V030\BidkeeClient\src\Bidkee.Client\obj\Release\netstandard2.0\Bidkee.Client.pdb

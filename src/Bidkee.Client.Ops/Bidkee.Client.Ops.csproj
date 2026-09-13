@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+    <RootNamespace>Bidkee.Client.Ops</RootNamespace>
+    <AssemblyName>Bidkee.Client.Ops</AssemblyName>
+    <PackageId>Bidkee.Client.Ops</PackageId>
+    <Description>Optional issue / claim / ingest / issuer-admin APIs for Bidkee.Client.</Description>
+    <IsPackable>true</IsPackable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bidkee.Client\Bidkee.Client.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bidkee.Client</name>
+    </assembly>
+    <members>
+        <member name="T:Bidkee.Client.Agent.BidkeeAgentSession">
+            <summary>Live agent instance bound to an <c>agt_</c> token and <c>BID-…</c> pass.</summary>
+        </member>
+        <member name="M:Bidkee.Client.Agent.BidkeeAgentSession.PresentAsync(System.Threading.CancellationToken)">
+            <summary>Platform-proxied present. Agents do not holder-sign.</summary>
+        </member>
+        <member name="T:Bidkee.Client.BidkeeGateway">
+            <summary>Entry point for Bidkee.Client. Call <see cref="M:Bidkee.Client.BidkeeGateway.Connect(Bidkee.Client.BidkeeOptions)"/>.</summary>
+        </member>
+        <member name="T:Bidkee.Client.BidkeeException">
+            <summary>Protocol or HTTP failure from BidkeePlat.</summary>
+        </member>
+        <member name="T:Bidkee.Client.BidkeeOptions">
+            <summary>Connection settings for bidkee.com or a self-hosted Plat.Api.</summary>
+        </member>
+        <member name="P:Bidkee.Client.BidkeeOptions.BaseUrl">
+            <summary>API origin. Trailing slash is normalized.</summary>
+        </member>
+        <member name="P:Bidkee.Client.BidkeeOptions.IssuerToken">
+            <summary>Issuer token <c>iss_…</c> used to enroll agent instances.</summary>
+        </member>
+        <member name="P:Bidkee.Client.BidkeeOptions.AccessToken">
+            <summary>Optional existing instance token <c>agt_…</c>.</summary>
+        </member>
+        <member name="P:Bidkee.Client.BidkeeOptions.OpsApiKey">
+            <summary>Ops key for Bidkee.Client.Ops only.</summary>
+        </member>
+        <member name="P:Bidkee.Client.BidkeeOptions.AutoRenew">
+            <summary>Re-enroll when the instance token is near expiry.</summary>
+        </member>
+        <member name="P:Bidkee.Client.BidkeeOptions.Handler">
+            <summary>Optional caller-owned handler. The gateway does not dispose it.</summary>
+        </member>
+        <member name="T:Bidkee.Client.Grok.GrokBotClient">
+            <summary>
+            All routes a Grok Bot is allowed to call on BidkeePlat.
+            Does not wrap issue / claim / ingest (those need a human holder signature or Ops).
+            </summary>
+        </member>
+        <member name="T:Bidkee.Client.Grok.GrokBotTools">
+            <summary>Tool names Grok Bot should register. Matches Plat agent + public directory.</summary>
+        </member>
+    </members>
+</doc>

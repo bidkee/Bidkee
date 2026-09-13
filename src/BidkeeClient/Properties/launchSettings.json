@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BidkeeClient": {
+      "commandName": "Project",
+      "commandLineArgs": "health",
+      "environmentVariables": {
+        "BIDKEE_BASE_URL": "https://bidkee.com"
+      }
+    }
+  }
+}
