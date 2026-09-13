@@ -20,7 +20,6 @@ jobs:
           dotnet-version: "8.0.x"
 
       - name: Pack
-        working-directory: V030/BidkeeClient
         run: dotnet pack src/Bidkee.Client/Bidkee.Client.csproj -c Release -o ./nupkg
 
       - name: NuGet login
@@ -31,7 +30,7 @@ jobs:
 
       - name: Push
         run: |
-          dotnet nuget push V030/BidkeeClient/nupkg/*.nupkg \
+          dotnet nuget push ./nupkg/*.nupkg \
             --api-key ${{ steps.login.outputs.NUGET_API_KEY }} \
             --source https://api.nuget.org/v3/index.json \
             --skip-duplicate
